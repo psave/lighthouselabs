@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Paul's Recipes</title>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script type='text/javascript' src='script.js'></script>
+		<!--<link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/> -->
+	</head>
+	<body>
+         <div> <!-- Figure out how to give this the class instead of the UL-->
+         <ul class="navbar">
+            <li><a id="nav_left" href="home.html">Home</a></li>
+            <li><a id="nav_left" href="recipes.html">Recipes</a></li>
+            <li><a id="nav_right" href="about.html">About</a></li>
+        </ul>
+        </div> 
+            <h1> These are my recipes</h1>            
+        <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><a href="recipes.html#tacos"><img id="resize_image_table" src="http://cdn.firstwefeast.com/assets/2015/06/tacos_howto_tortillas.jpg"/>
+                    <p align="center">Tacos</p></a></td>
+                    <td><a href="recipes.html#gyoza"><img id="resize_image_table" src="http://steamykitchen.com/wp-content/uploads/2009/10/pan-fried-gyoza.jpg"/>
+                    <p align="center">Gyoza</p></a></td>
+                    <td><a href="recipes.html#moqueca"><img id="resize_image_table" src="http://www.taste.com.au/images/recipes/agt/2012/06/30001_l.jpg"/>
+                    <p align="center">Moqueca</p></a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="button">Hide or Show Photos<input type="checkbox" id="img_hide_show"></div>
+        <div>
+            <h2 id="tacos">Tacos</h2>
+            <!-- Recipe: http://firstwefeast.com/eat/how-to-make-tacos/ -->
+            <img id="resize_image_recipes" src="http://cdn.firstwefeast.com/assets/2015/06/tacos_howto_tortillas.jpg"/>
+            <h3>Ingredients</h3>
+            	<p> The following Recipe is for 4 people:</p>
+            	<p align="right">Purchased?</p>
+                <ul class="ingredient_list">
+                <form>
+                    <li>12 Corn Tortillas<input type="checkbox" class="checkbox_color"></li>
+                    <li>4 large Roma Tomatoes<input type="checkbox" class="checkbox_color"></li>
+                    <li>1 Medium Red Onion<input type="checkbox" class="checkbox_color"></li>
+                    <li>1 bunch of Cilantro<input type="checkbox" class="checkbox_color"></li>
+                    <li>2 Jalapenos<input type="checkbox" class="checkbox_color"></li>
+                    <li>2 Large Ripe Avacados<input type="checkbox" class="checkbox_color"></li>
+                    <li>2 Limes<input type="checkbox" class="checkbox_color"></li>
+                    <li>1pd Ground Pork<input type="checkbox" class="checkbox_color"></li>
+                    <li>Taco Seasoning (2 packages or the below ingredients)<input type="checkbox" class="checkbox_color"></li>
+                    	<ul>
+                        	<li>2 Teaspoons Cumin Seads<input type="checkbox" class="checkbox_color"></li>
+                            <li>1/4 Teaspoon Cardamon<input type="checkbox" class="checkbox_color"></li>
+                            <li>1/4 Teaspoon Cayenne Pepper<input type="checkbox" class="checkbox_color"></li>
+                            <li>Salt & Pepper to taste<input type="checkbox" class="checkbox_color"></li>
+                        </ul>
+                    <li>250 ml Sour Cream<input type="checkbox" class="checkbox_color"></li>
+                    <li>Salt<input type="checkbox" class="checkbox_color"></li>
+                    <li>Olive Oil<input type="checkbox" class="checkbox_color"></li>
+                </form>
+                </ul>
+                <!--<p align="right"><button id="button_slideDown">Next</button></p>-->
+            <h3>Recipe</h3>
+            	<div id="menu">
+            	<h4>1. Salsa</h4>
+            	<div>
+            		<ul>
+            			<li>Dice 2 roma tomatoes and add salt to taste and place in a strainer to let some of the juice drip out.</li>
+            			<li>Then chop 1/3 of the cilantro, finely dice 1/4 of the red onion, finely dice 1 jalapeno and mix together in a bowl.</li>
+            			<li>Juice 1 lime and add to the avacado.</li>
+            			<li>After 10 minutes add in the tomato while discarding the juice, and mix together with the other ingredints already in the bowl.</li>
+            			<li>Taste and season again with salt if needed.</li>
+        			</ul>
+        		</div>
+        		<h4>2. Guacamole</h4>
+        		<div>
+        			<ul>
+            			<li>Remove the flesh of the avacado and coursely chop then place in a bowl.</li>
+            			<li>Mix this together a bit more with a fork until partially smoooth with some chunks remaining.</li>
+            			<li>Then finely chop the following: 1 jalapeno, 1/3 bunch of cilantro, 1 tomato, and 1/4 of the onion and mix together with teh avacado.</li>
+        			</ul>
+    			</div>
+        		<h4>3. Seasoned Meat</h4>
+        		<div>
+        			<ul>
+            			<li>Heat a medium skillet on med-high heat and add in 1/2 tablespoon of olive oil.</li>
+            			<li>Chop the remaining 1/2 onion and add to the skillet when hot.</li>
+            			<li>Then add in the Taco seasoning.</li>
+            			<li>Dice the remaining tomato and add to the skillet. </li>
+            			<li>You want to cook this mixture for 15 minutes to extract the flavour of the spices. </li>
+            			<li>You can add 1 tablespoon of water at a time if needed in order to prevent sticking.</li>
+            			<li>After 15 minutes have lapsed, add in the ground pork and stir until it is ready. Place in a bowl once cooked.</li>
+        			</ul>
+    			</div>
+        		<h4>4. Tortillas (12)</h4>
+        		<div>
+        			<ul>
+            			<li>If you have a BBQ or a gas stove, then toast the shells on both sides.</li>
+            			<li>You can keep these warm by placing them in a bowl covered with a kitchen towel. (You will want the tortillas to be placed inside the towel so that they are not touching the bowl directly in order to maintain the heat.</li>
+        			</ul>
+    			</div>
+        		<h4>5. Remaining Cilantro</h4>
+        		<div>
+        			<ul>
+            			<li>Chop and place in a bowl.</li>
+        			</ul>
+    			</div>
+    			<h4>6. Remaining 1 lime</h4>			
+    			<div>
+        			<ul>
+            			<li>Cut off the tips of each end.</li>
+            			<li>Then cut in half width-wise and cut each half into 6 wedges.</li>
+            			<li>This will give you 12 wedges to add a bit of additional lime juice to each taco.</li>
+        			</ul>
+    			</div>
+
+    			<h4>7. Sour Cream</h4>			
+    			<div>
+        			<ul>
+            			<li>Mix with a spoon and place in another container for nicer presentation.</li>
+        			</ul>
+    			</div>
+    			<h4>8. Serving</h4>			
+    			<div>
+        			<ul>
+            			<li>Serve all the ingredients on the table for you and your guests to enjoy this family style meal.</li>
+        			</ul>
+    			</div>
+    			<!--<h4>Heading</h4>			
+    			<div>
+        			<ul>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+        			</ul>
+    			</div>
+    			<h4>Heading</h4>			
+    			<div>
+        			<ul>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+            			<li></li>
+        			</ul>
+    			</div>-->            	
+            	</div>
+          </div>
+          <div>
+             <h2 id="gyoza">Gyoza</h2>
+            <!-- Recipe: http://steamykitchen.com/5874-gyoza-recipe-japanese-pan-fried-dumplings.html -->
+            <img id="resize_image_recipes" src="http://steamykitchen.com/wp-content/uploads/2009/10/pan-fried-gyoza.jpg"/>
+            <h3>Ingredients</h3>
+            	<p>The following Recipe is for 4 people:</p>
+            	<p align="right">Purchased?</p>
+                <ul class="ingredient_list">
+                    <li>Gyoza Wrappers<input type="checkbox" class="checkbox_color"></li>
+                    <li>Japanese Chives (Nira)<input type="checkbox" class="checkbox_color"></li>
+                    <li>Ground Pork<input type="checkbox" class="checkbox_color"></li>
+                    <li>Napa Cabbage<input type="checkbox" class="checkbox_color"></li>
+                    <li>Ground Ginger<input type="checkbox" class="checkbox_color"></li>
+                    <li>Garlic<input type="checkbox" class="checkbox_color"></li>
+                    <li>Soy Sauce<input type="checkbox" class="checkbox_color"></li>
+                    <li>Mirin<input type="checkbox" class="checkbox_color"></li>
+                </ul>
+          </div> 
+          <h3>Recipe</h3>
+          	<ol>
+            	<li>This recipe is coming soon. Stay tuned!!</li>
+            </ol>
+          <div>
+             <h2 id="moqueca">Brazillian Moqueca</h2>
+            <!-- Recipe: http://steamykitchen.com/5874-gyoza-recipe-japanese-pan-fried-dumplings.html -->
+            <img id="resize_image_recipes" src="http://www.taste.com.au/images/recipes/agt/2012/06/30001_l.jpg"/>
+            <h3>Ingredients</h3>
+            	<p>The following Recipe is for 4 people:</p>
+            	<p align="right">Purchased?</p>
+                <ul class="ingredient_list">
+                    <li>1 tablespoon Red Palm Oil<input type="checkbox" class="checkbox_color"></li>
+                    <li>1 lb Large Shrimp still in shell (We need the heads and tails of the shell to make a broth.<input type="checkbox" class="checkbox_color"></li>
+                    <li>1 bunch of cilantro<input type="checkbox" class="checkbox_color"></li>
+                    <li>2 stalks of celery<input type="checkbox" class="checkbox_color"></li>
+                    <li>1 large yellow onion<input type="checkbox" class="checkbox_color"></li>
+                    <li>1 Leek<input type="checkbox" class="checkbox_color"></li>
+                    <li>1 large red pepper<input type="checkbox" class="checkbox_color"></li>
+                    <li>2 limes<input type="checkbox" class="checkbox_color"></li>
+                </ul>
+            <h3>Recipe</h3>
+          		<ol>
+            		<li>This recipe is coming soon. Stay tuned!!</li>
+            	</ol>
+           </div>
+ 
+   	</body>
+</html>

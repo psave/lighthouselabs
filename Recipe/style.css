@@ -1,0 +1,150 @@
+
+/* Need to figure out how to get this class working when it is assigned to the Div tag instead of the UL tag. Also figure out how to keep this remained fixed and horizontal... */
+.navbar {
+    list-style-type: none; /*no marker is shown for the bullet or list */
+    margin: 0; /*using 0 eliminates all margins*/
+    padding: 0px; /* removes the indent from the list. See: http://stackoverflow.com/questions/9620594/removing-ul-indent-with-css*/
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 100%; /* Need to set this so that I can fix the position */
+    height: 5%; /* Need to set this so that I can fix the position */
+    position: fixed;
+}
+/*  Moves the items to the left.*/
+#nav_left	{
+	float: left;
+}
+
+#nav_right	{
+	float: right;
+}
+
+/*  
+Todo:
+1. Give this command to the navbar class*/
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Changes the link color on hover. 
+Todo:
+1. Give this command to the navbar class*/
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+h1	{
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+	font-family: Papyrus, Ariel;
+	padding-top: 60px;
+}
+
+h2 {
+	font-family: Museo, Curlz MT;
+}
+
+.ingredients	{
+	padding: 12px 0px 12px 20px;
+}
+
+#main_text {
+	text-align: center;
+	padding: 1.5em;
+}
+
+/* aligns the table in the center */
+table {
+	margin: 0px auto;
+	padding-top: 2em;
+}
+
+th {
+	background-color: #CCC;
+	border-radius: 10px 10px 10px 10px; /*rounds the edges of the background-color */
+	padding: 8px;
+}
+
+#resize_image_table {
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+	box-shadow: 10px 10px 5px #999999;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+  	transition: transform .8s ease-in-out;
+}
+
+#resize_image_table:hover {
+	transform: scale(1.1);
+}
+
+#resize_image_recipes {
+	width: 500px;
+	height: 400px;
+	border-radius: 10%;
+}
+
+.ingredient_list li {
+	background: #eeeeee;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 1em;
+	height: 16px;
+	width: auto;
+	font-family: Verdana, Arial, Sans-Serif;
+}
+
+input {
+	float: right;
+	margin-right: 2em;
+}
+
+.blue {
+	color: blue;
+	font-weight: bold;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#recipe_button {
+    float: right;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    margin: 2px 0px 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*.p_highlight {
+	background-color: #90EE90;
+	margin: 10px;
+} */
+
+ol li {
+	padding-top: 5px;
+}
+
+/*#button_slideDown {
+	padding: 10px;
+	margin-bottom: 20px;
+} */
